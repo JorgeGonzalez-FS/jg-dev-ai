@@ -1,0 +1,14 @@
+{
+  "name": "jg-dev-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web de JG Dev AI: desarrollo web, automatización e IA aplicada a negocios.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "node build.mjs --local && node scripts/serve.mjs",
+    "test": "node build.mjs && node scripts/check.mjs"
+  }
+}

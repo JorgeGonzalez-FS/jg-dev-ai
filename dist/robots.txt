@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jorgegonzalez-fs.github.io/jg-dev-ai/sitemap.xml
